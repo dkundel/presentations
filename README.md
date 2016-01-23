@@ -1,2 +1,2 @@
-# presentations
-A repository for different presentations that I gave
+# Presentations
+Repository of the slides to my presentations
