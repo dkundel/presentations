@@ -7,7 +7,7 @@ build-lists: true
 
 ^ Hi everyone!
 
-^ First of all thank you for attending my talk today! I'm going to give you an insight today into
+^ First of all thank you for attending my talk today! I'm going to give you an insight into
 how to write command line tools using Node.JS and why it's awesome. But first let me give you a
 brief introduction of myself.
 
@@ -21,7 +21,7 @@ I'm a developer with a passion for JavaScript, Hackathons and good Whisky.
 
 Follow me: [fb.com/dominik402](https://fb.com/dominik402) | [@dkundel](https://twitter.com/dkundel) | [github/dkundel](https://github.com/dkundel)
 
-^ My name is Dominik and I'm a developer with a passion for JavaScript. You'll usually find me on weekends
+^ My name is Dominik and I'm a developer with a passion for JavaScript. You usually find me on weekends
 at hackathons across Europe either hacking or running around as mentor. I also love a good whisky so if you
 have a suggestion for a great Bourbon I should try please let me know!
 
@@ -54,7 +54,7 @@ If you haven't tried the command line star wars you should check it out!
 
 ---
 
-## Command line tools
+## Command line
 ### **The ultimate productivity tool**
 
 - Build on existing and built-in tools
@@ -76,7 +76,7 @@ If you haven't tried the command line star wars you should check it out!
 ### **The difficult choice of a language**
 
 ^ Probably the first issue you'll face when you decide to write a script to automate a task is:
-Which scripting or programming language will I be using? Shell script. If yes is it going to be
+Which scripting or programming language will I be using? Shell script? If yes is it going to be
 Bash, Z-Shell, Fish-Shell? What about Windows support? Compiled or non compiled? Python, Ruby,
 C++, C#. Pretty much any language offers the possibility to write a command line tool. Today
 I'm going to focus on why I think writing these tools in Node.JS is great!
@@ -230,7 +230,7 @@ is argument passing.
 ```
 
 ```
-> npm run build:help
+> npm run build:dev
 ```
 
 ^ Let's say we want to define a command 'build' that will build the TypeScript and also a command that will run
@@ -331,7 +331,8 @@ console.log('Subject specified: %s', program.subject);
 ```javascript
 //...
 const os = require('os');
-const config = require(`${os.homedir()}/unicorn.config.json`);
+const path = require('path');
+const config = require(path.join(os.homedir(), unicorn.config.json));
 //..
 ```
 
