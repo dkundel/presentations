@@ -1,4 +1,4 @@
-footer: Hacktoberfest Berlin | [@dkundel](https://twitter.com/dkundel) [@stefanjudis](https://twitter.com/stefanjudis) | #hacktoberfest
+footer: Hacktoberfest Berlin | [@dkundel](https://twitter.com/dkundel) [@irina_botea](https://twitter.com/irina_botea) [@stefanjudis](https://twitter.com/stefanjudis) | #hacktoberfest
 slidenumbers: false
 build-lists: true
 autoscale: true
@@ -152,6 +152,10 @@ code: Source Code Pro, auto
 ---
 
 # ✨ Demo ✨
+
+---
+
+![](images/github-desktop.png)
 
 ---
 
